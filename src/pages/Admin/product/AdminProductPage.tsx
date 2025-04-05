@@ -271,7 +271,7 @@ const AdminProductPage = () => {
                 label="Upload new image"
                 max={5}
                 fieldProps={{
-                  action: "http://localhost:3001/file/upload",
+                  action: "https://pet-server-e6yo.onrender.com/file/upload",
                   multiple: true,
                   name: "productImage",
                   listType: "picture-card",
@@ -476,7 +476,7 @@ const AdminProductPage = () => {
               label="image"
               max={5}
               fieldProps={{
-                action: "http://localhost:3001/file/upload",
+                action: "https://pet-server-e6yo.onrender.com/file/upload",
                 multiple: true,
                 name: "productImage",
                 listType: "picture-card",
