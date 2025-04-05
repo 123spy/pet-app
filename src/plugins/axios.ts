@@ -1,7 +1,8 @@
 import axios from 'axios';
 import {message} from "antd";
 
-axios.defaults.baseURL = 'http://localhost:3001';
+// axios.defaults.baseURL = 'http://localhost:3001';
+axios.defaults.baseURL = 'https://pet-server-1-gswe.onrender.com';
 
 axios.defaults.withCredentials = true;
 
