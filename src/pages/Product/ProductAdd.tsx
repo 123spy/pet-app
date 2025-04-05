@@ -139,7 +139,7 @@ const AddProductPage = () => {
             label="Product Images"
             max={5}
             fieldProps={{
-              action: "http://localhost:3001/file/upload",
+              action: "https://pet-server-1-gswe.onrender.com/file/upload",
               multiple: true,
               name: "productImage",
               listType: "picture-card",
